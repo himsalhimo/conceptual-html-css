@@ -1,26 +1,73 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-.goat-head{
+
+.goat-head {
     background-image: url('../images/GOAT.jpg');
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
 
-.goat-head h1{
+.goat-head h1 {
     color: azure;
     font-size: 100px;
     text-align: center;
     font-weight: 900;
     padding-top: 60px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     word-spacing: 10px;
     letter-spacing: 20px;
 }
 
-.h1-the{
+.h1-the {
     color: blueviolet;
     letter-spacing: normal;
+}
+/* head section */
+
+.article, .goat-types h2{
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+
+}
+
+.article h2, .goat-types h2{
+    text-align: center;
+    font-size: 48px;
+    border-width: 6px;
+    border-color: green;
+    border-style: solid;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+    
+
+
+}
+
+.article p{
+    font-size: 22px;
+}
+
+.goat-img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.goat-img div{
+    width: 300px;
+   
+}
+
+.goat-img img{
+    width: 100%;
 }
